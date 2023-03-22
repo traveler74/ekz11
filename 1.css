@@ -1,0 +1,20 @@
+div{
+    background-image: url("icon.png");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 100px;
+    animation: car 10s ease-in-out;
+}
+
+@keyframes car {
+    0%{
+        background-position-x: -200px;
+
+    }
+
+
+    100%{
+        background-position-x: 1500px;
+
+    }
+}
